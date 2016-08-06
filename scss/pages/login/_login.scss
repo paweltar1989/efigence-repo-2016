@@ -2,6 +2,12 @@
   background: url("../img/efi3_login.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+  color: white;
+}
+
+.login-box {
+  background-color: $accent-color;
+  border-radius: 5px;
 }
 
 .header-section {
