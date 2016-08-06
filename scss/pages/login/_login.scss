@@ -3,14 +3,18 @@
   background-size: cover;
   height: 100%;
   color: white;
+  padding-top: 50px;
 }
 
 .login-box {
   background-color: $accent-color;
   border-radius: 5px;
+  padding: 20px 20px 70px 20px;
+  min-height: 600px;
 }
 
 .header-section {
+  text-align: center;
   h1 {
 
   }
@@ -21,8 +25,78 @@
 
 .login-section {
   position: relative;
+  background: transparentize(white, 0.5);
+  margin-top: 160px;
+  border-radius: 5px;
+  padding: 70px 20px 50px 20px;
 }
 
 .avatar {
   position: absolute;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50px;
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+  overflow: hidden;
+  img {
+    // filter: blur(2px);
+  }
+}
+
+.password-input {
+  padding-right: 0;
+}
+
+.keyboard-col {
+  padding-top: 5px;
+}
+
+.client-id-section {
+  text-align: center;
+  p {
+
+  }
+}
+
+.select-other {
+  text-align: right;
+  text-transform: uppercase;
+  p {
+    margin-top: 3px;
+  }
+}
+
+.logo-column {
+  text-align: right;
+}
+
+.social-ico-col {
+  text-align: right;
+  padding: 10px 0;
+}
+
+.navigation-col {
+  padding: 10px 0;
+}
+
+.bottom-navigation {
+  list-style: none;
+  margin-left: 0;
+  font-size: 11px;
+  li {
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 5px;
+    text-transform: uppercase;
+  }
+  a {
+    color: white;
+  }
+}
+
+.x-ico {
+  margin-left: 10px;
 }
