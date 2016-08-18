@@ -1,0 +1,30 @@
+.header__wrapper {
+  background-color: $accent-color;
+  width: 100%;
+  padding: 20px 0px;
+  p {
+    color: white;
+  }
+}
+
+.logo__img {
+  width: 70px;
+  float: right;
+}
+
+.avatar__container {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 70px;
+}
+
+.menu__link-wrapper {
+  p {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+}
+
+.menu__link-wrapper--active {
+
+}
