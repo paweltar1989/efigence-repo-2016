@@ -1,66 +1,77 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="header__wrapper">
-      <div class="row">
-        <div class="column medium-4">
-          <div class="row">
-            <div class="column medium-4">
-              <img class="logo__img" src="img\logo.png" alt="">
-            </div>
-            <div class="column medium-4">
-              <div class="avatar__container">
-                <img class="avatar__img" src="https://unsplash.it/100/100/?random" alt="">
-              </div>
-            </div>
-            <div class="column medium-4">
-              <p>Jan Kowalski</p>
-            </div>
-          </div>
-        </div>
-        <div class="column medium-4">
-          <div class="row">
-            <div class="column medium-3">
-              <div class="menu__link-wrapper menu__link-wrapper--active">
-                <img src="" alt="">
-                <p>Home</p>
-              </div>
-            </div>
-            <div class="column medium-3">
-              <div class="menu__link-wrapper">
-                <img src="" alt="">
-                <p>Analyse</p>
-              </div>
-            </div>
-            <div class="column medium-3">
-              <div class="menu__link-wrapper">
-                <img src="" alt="">
-                <p>Plan</p>
-              </div>
-            </div>
-            <div class="column medium-3">
-              <div class="menu__link-wrapper">
-                <img src="" alt="">
-                <p>Earn</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column medium-4">
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="header__wrapper">
+    <div class="row">
+      <div class="column medium-4">
+        <div class="row">
+          <div class="column medium-4 header__column--logo">
+            <img class="logo__img" src="img\logo.png" alt="">
+          </div>
+          <div class="column medium-3 header__column--avatar">
+            <div class="avatar__container">
+              <img class="avatar__img" src="https://unsplash.it/100/100/?random" alt="">
+            </div>
+          </div>
+          <div class="column medium-4 end header__column--name">
+            <p>Jan Kowalski</p>
+          </div>
+        </div>
+      </div>
+      <div class="column medium-4">
+        <div class="row medium-collapse">
+          <div class="column medium-2 header__column--button">
+            <div class="menu__link-wrapper menu__link-wrapper--active">
+              <i class="fa fa-home menu__icon" aria-hidden="true"></i>
+              <p>Home</p>
+            </div>
+          </div>
+          <div class="column medium-2 header__column--button">
+            <div class="menu__link-wrapper">
+              <i class="fa fa-area-chart menu__icon" aria-hidden="true"></i>
+              <p>Analyse</p>
+            </div>
+          </div>
+          <div class="column medium-2 header__column--button">
+            <div class="menu__link-wrapper">
+              <i class="fa fa-calendar-o menu__icon" aria-hidden="true"></i>
+              <p>Plan</p>
+            </div>
+          </div>
+          <div class="column medium-2 end header__column--button">
+            <div class="menu__link-wrapper">
+              <i class="fa fa-money menu__icon" aria-hidden="true"></i>
+              <p>Earn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column medium-4">
+        <div class="row">
+          <div class="column medium-10">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="column medium-2">
+            <i class="fa fa-power-off" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
     </div>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
